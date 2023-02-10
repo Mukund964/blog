@@ -1,0 +1,10 @@
+<%- include("header") -%>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <label for="publish_title">Title</label><br>
+    <input type="text" name="publish_title" class="form-control"><br> 
+    <label for="publish_content">Post</label><br>
+    <textarea rows="5" column="100" name = "publish_content" class="form-control"></textarea><br>
+<button type="submit" class="btn btn-primary">Publish</button>
+</form>
+<%- include("footer") -%>
